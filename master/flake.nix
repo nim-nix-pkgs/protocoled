@@ -11,6 +11,7 @@
   inputs.src-protocoled-master.ref   = "refs/heads/master";
   inputs.src-protocoled-master.owner = "planetis-m";
   inputs.src-protocoled-master.repo  = "protocoled";
+  inputs.src-protocoled-master.dir   = "";
   inputs.src-protocoled-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
